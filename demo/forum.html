@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CoB: Contact Card</title>
+<meta charset="utf-8">
+<link href="ATUCoB.css" rel="stylesheet"> 
+<script ></script>
+</head>
+<body>
+  <header>
+    <h1> <a href="index.html"> College of Business</a></h1>
+  </header>
+  <nav>
+    <ul>
+	 <li><a href="index.html">Home</a></li>
+     <li><a href="majors.html">Majors</a></li>
+     <li><a href="login.html">Log In</a></li>
+	 <li><a href="forum.html">New Student</a></li>
+	 <li><a href="TStudentForm.html">Transfer Student</a></li>
+	</ul> 
+   </nav> 
+   
+   
+  <main> 
+   	<h2> Contact Forum </h2>
+	
+	<p> Fill out this forum if you're currently in High School and looking to apply to Arkansas Tech University. </p>
+	
+
+	
+	<h3> New Student Forum </h3>
+	
+	<form action="student.php" method="POST" id="form1">
+		<label for="fName"> First Name: </label>
+		<input type="text" name="fName" pattern="[a-zA-Z]+" ID="fName" placeholder="First Name: ">
+
+		<label for="lName"> Last Name: </label>
+		<input type="text" name="lName" pattern="[a-zA-Z]+" ID="lName" placeholder ="Last Name: ">
+
+		<label for="prefName"> Preferred Name: </label>
+		<input type="text" name="pName" pattern="[a-zA-Z]+" ID="prefName" placeholder ="Preferred Name: ">
+
+		<label for="eMail"> E-Mail Address: </label>
+		<input type="text" name="email" ID="eMail" placeholder= "E-Mail Address: ">
+
+		<label for="mailing">Mailing Address: </label>
+		<input type="text" name="address" ID="mailing" placeholder="Mailing Address:">
+
+		<label for="hSchool">High School: </label>
+		<input type="text" name="hSchool" ID="hSchool" placeholder="High School:">
+
+		<label for="GPA">GPA: </label>
+		<input type="decimal" name="gpa" ID="GPA" placeholder="GPA: ">
+
+
+		<label for="gYear"> Graduation Year: </label>
+		<input type="number" name="gYear" ID="gYear" placeholder= "Graduation Year:">
+
+		<label for="cStanding">Class Standing: </label>
+		<input type="text" name="standing" pattern="[a-zA-Z]+" ID="cStanding" placeholder="Class Standing:">
+
+		<label for="major">Major:</label>
+		<select id="major" name="major">
+		  <option value="Accounting">Accounting</option>
+		  <option value="Finance">Finance</option>
+		  <option value="BDA">Business Data Analytics</option>
+		  <option value="BM">Business Management</option>
+		  <option value="DM">Digital Marketing</option>
+		  <option value="AB">Agriculture Business</option>
+		  <option value="AE">Agriculture Education</option>
+		  <option value="HIM">Health Information Management</option>
+		</select> 
+		<input type="submit" id='test' value="Submit"> 
+		</form>
+
+	
+  </main> 
+   <footer>Copyright &copy; 2022; Last Updated 2023</footer>
+</body>
+</html>
+
+

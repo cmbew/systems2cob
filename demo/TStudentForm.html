@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CoB: Contact Card</title>
+<meta charset="utf-8">
+<link href="ATUCoB.css" rel="stylesheet"> 
+<script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1> <a href="index.html"> College of Business</a></h1>
+  </header>
+  <nav>
+    <ul>
+	 <li><a href="index.html">Home</a></li>
+     <li><a href="majors.html">Majors</a></li>
+     <li><a href="login.html">Log In</a></li>
+		<li><a href="forum.html">New Student</a></li>
+		<li><a href="TStudentForm.html">Transfer Student</a></li>
+	</ul> 
+   </nav> 
+   
+   
+  <main> 
+   	<h2> Contact Forum </h2>
+	
+	<p> Fill out this forum if you're already attending a university and plan on transferring to Arkansas Tech University</p>
+	
+	
+	
+	<h3>Transfer Student Forum </h3>
+	
+	<form action='transfer.php' method="POST">
+		<label for="fName"> First Name: </label>
+		<input type="text" name="fName" pattern="[a-zA-Z]+" ID="fName" placeholder="First Name: ">
+
+		<label for="lName"> Last Name: </label>
+		<input type="text" name="lName" pattern="[a-zA-Z]+" ID="lName" placeholder ="Last Name: ">
+
+		<label for="prefName"> Preferred Name: </label>
+		<input type="text" name="prefName" pattern="[a-zA-Z]+" ID="prefName" placeholder ="Preferred Name: ">
+
+		<label for="eMail"> E-Mail Address: </label>
+		<input type="text" name="eMail" ID="eMail" placeholder= "E-Mail Address: ">
+
+		<label for="mailing">Mailing Address: </label>
+		<input type="text" name="mailing" ID="mailing" placeholder="Mailing Address:">
+
+		<input type="submit" value="Submit"> 
+		</form>
+
+	
+  </main> 
+   <footer>Copyright &copy; 2022; Last Updated 2023</footer>
+</body>
+</html>
+
+
